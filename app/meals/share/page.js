@@ -1,10 +1,8 @@
-export default function MealsShare() {
+export default function ShareMealPage() {
     return (
-      <main>
-        <h1 style={{ color: 'white', textAlign: 'center' }}>
-          MealsShare
+      <h1>
+          Share Meal
         </h1>
-      </main>
     );
   }
   
