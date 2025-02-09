@@ -2,6 +2,11 @@ import { Suspense, lazy } from 'react';
 import Link from 'next/link';
 import classes from './page.module.css';
 
+export const metadata = {
+  title: 'All meals',
+  description: 'Browse the delicious meals shared by our vibrant community.',
+};
+
 export default function MealsPage() {
 
   return (
